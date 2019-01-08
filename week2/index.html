@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="class1">
+        <div class="child1">
+            <div class="child1_1">
+                Logo
+            </div>
+            <div class="child1_2">
+                <div class="child1_3">
+                    О компании
+                </div>
+                <div class="child1_3">
+                    Вход
+                </div>
+            </div>
+
+        </div>
+        <div class="child2">
+            <div class="child2_1">
+                <div class="child2_1_1">
+                    Главная
+                </div>
+                <div class="child2_1_1">
+                    Мои опросы
+                </div>
+                <div class="child2_1_1">
+                    Шаблоны опросов
+                </div>
+                <div class="child2_1_1">
+                    Пользователи
+                </div>
+            </div>
+            <div class="child2_2">
+                Название моего опроса
+                <div class="child2_2_1">
+                    1.Вопрос с несколькими верными ответами
+                    <div>
+                        <input type="checkbox" name="group1" id="question1_1"> <span>Ответ 1</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="group1" id="question1_2"> <span>Ответ2</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="group1" id="question1_3"> <span>Ответ3</span>
+                    </div>
+                </div>
+                <div class="child2_2_1">
+                    2.Вопрос с одним верным ответом
+                    <div>
+                        <input type="radio" name="group2" id="question2_1"><span>Ответ1</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="group2" id="question2_2"><span>Ответ2</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="group2" id="question2_3"><span>Ответ3</span>
+                    </div>
+                </div>
+                <div class="child2_2_1">
+                    3.Вопрос с текстовым ответом
+                    <textarea name="group3" id="question3"></textarea>
+                </div>
+                <div class="child2_2_1">
+                    4.вопрос с ответом в файле
+                    <input type="file" name="group4" id="question4">
+                </div>
+                <div class="child2_2_1" >
+                    вопрос5 id="question5"
+                </div>
+                <div class="child2_2_1">
+                    6.Вопрос-шкала
+                    <input type="range" min="0" max="100" step="1" value="50" id="question6">
+                </div>
+                <div class="child2_2_2">
+                    <button onclick="submit()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
